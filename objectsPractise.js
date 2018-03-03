@@ -2,9 +2,13 @@ let person = {
   name: 'Dexter',
   age: 30,
   weekendAlarm: 'No alarms needed',
-  weekAlarm: 'Alarm set to 7AM'
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {
+    return 'Hello, there!'
+  }
 };
 
+console.log(person.sayHello())
 console.log(person['name']);
 console.log(person['age']);
 
@@ -20,5 +24,5 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 console.log(person[alarm]);
 
 person.hobbies = ["Coding", "Going to the gym"];
-
+person.hobbies = ["Coding"];
 console.log(person.hobbies)
