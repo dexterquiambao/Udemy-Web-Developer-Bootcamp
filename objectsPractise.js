@@ -3,9 +3,15 @@ let person = {
   age: 30,
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
+  
   sayHello: () => {
-    return 'Hello, there!'
-  }
+    return `Hello, my name is ${person.name}`
+  },
+  
+  //Using ES6 to add sayGoodbye() method
+  sayGoodbye() {
+  	return 'Goodbye'
+	},
 };
 
 console.log(person.sayHello())
