@@ -18,3 +18,7 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 }
 
 console.log(person[alarm]);
+
+person.hobbies = ["Coding", "Going to the gym"];
+
+console.log(person.hobbies)
